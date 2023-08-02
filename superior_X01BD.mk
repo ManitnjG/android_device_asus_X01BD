@@ -13,12 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/superior/config/common.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_BOOT_ANIMATION_RES := 1440
 
 #superior stuffs
 BUILD_WITH_GAPPS := true
 
-SUPERIOR_OFFICIAL := true
+SUPERIOR_OFFICIAL := false
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
